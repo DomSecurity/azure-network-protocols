@@ -10,7 +10,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (DHCP, SSH, RDP, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -73,7 +73,7 @@ Now here we'll filter DNS (Domain Name Server port 53) traffic, (mainly used to 
 </p>
 
 <p>
-Lastly we will filter for RDP traffic. When we enter tcp.port==3389 traffic is spammed non stop because we are using Remote Desktop Protocol to connect to our Virtual Machine.
+Lastly we will filter for RDP traffic. When we enter tcp.port==3389, traffic is spammed non stop because we are using Remote Desktop Protocol to connect to our Windows Virtual Machine.
 </p>
 <br />
 
